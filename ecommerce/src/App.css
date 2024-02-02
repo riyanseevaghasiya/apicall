@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h3{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+/* start header */
+.head-background{
+  background-color:white;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.main{
+  padding: 10px;
+}
+.logo-img img{
+  margin-right: 36px;
+}
+.input-box{
+  position: relative;
+ 
+}
+.input-box input{
+  background-color: #F0F5FF;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+}
+.search{
+  position: absolute;
+  margin :0 10px;
+  top:3px;
+  font-size: 20px;
+}
+.input-box input{
+  width: 450px;
+}
+::placeholder{
+  padding: 35px !important;
+}
+.one{
+  vertical-align: center;
+  padding: 5px 0;
+}
+.user{
+  margin: 0 7px;
+  font-size: 20px;
+}
+.user-text{
+  font-size: 15px;
+}
+.down{
+  margin: 0 30px 0 7px;
+}
+.cart{
+  margin: 0 5px;
+  font-size:20px;
+}
+.user-cart{
+  margin-right: 25px;
+  font-size: 15px;
+}
+.cishop{
+  font-size: 20px;
+  margin-right:5px ;
+}
+.cishop-text{
+  font-size: 15px;
+}
+.dot{
+  margin-left:50px;
+}
+/* end header */
+/* start category */
+.main-box{
+  border: 1px black solid;
+  margin-top: 40px !important;
+  border-radius: 10px;
+  height: 500px;
+  width: 300px !important;
+  background-color:white;
+  overflow-y: auto;
+  position: fixed;
+}
+.category-title{
+  padding-bottom: 7px !important;
+  border-bottom: 1px solid black;
+}
+.category{
+  padding: 10px 0px;
+}
+.category p{
+  margin: 10px 0px;
+  font-size: 17px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid 	#e5e5e5;
+}
+.content{
+  padding: 20px;
+}
+/* End category */
+/* Start Product */
+.product{
+  height: 630px;
+  width: 330px;
+  border: 1px solid black;
+  margin-top: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  overflow-y: auto;
+}
+.imges{
+  height: 300px;
+  width: 330px;
+}
+.imges img{
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius:10px
+}
+.ruppies{
+  font-size: 25px;
+
+}
+.info h4{
+  font-size: 20px; 
+}
+.info h3{
+  margin-top: 7px;
+}
+.rate{
+  color: rgb(243,204,14);
+}
+.dis{
+  background-color: rgba(11,156,49,0.2);
+  color: green;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 100px;
+  margin-top: 5px;
+}
+/* End Product */

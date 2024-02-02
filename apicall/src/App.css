@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title h1{
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+.main{
+    background-color: #272B33;
+    flex-wrap: wrap;
+}
+.item{
+    background-color: #3C3E44;
+    margin: 15px;
+    border-radius: 20px;
+   
+}
+.item-img img{
+    width: 220px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+}
+.info{
+    margin: 15px;
+}
+.info-title{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+h3{
+    margin: 0 !important;
+}
+.status{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    padding-left: 20px;
+}
+.status::after{
+    content: " - ";
+}
+.status::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    top: 7px;
+    left: 0;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+}
+.species{
+    color: white;
+    font-weight: bold;
+}
+.sec1{
+    margin-bottom: 10px;
+}
+.text{
+    color: rgb(158,158,158);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.location-name{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
